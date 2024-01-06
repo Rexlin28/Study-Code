@@ -1,0 +1,18 @@
+Arboles y lenguajes:
+Sea A un grafo. A recibe el nombre de arbol si y solo si: 
+	-A es conexo.
+	-A no contiene circuitos.
+
+
+Arbol:
+Existe una trayectoria unica entre dos vertices cualesquiera de un arbol.
+
+Tarea:
+	"Un hombre que tiene dos hijos, uno tiene dos y el otro tiene tres hijos. Muestra esta condicion con un Arbol Binario."
+
+	"Dibuja un arbol con peso 17 de forma binaria y determina cada una de las caracteristicas del arbol." 
+
+		*Propiedades de los arboles.
+
+
+

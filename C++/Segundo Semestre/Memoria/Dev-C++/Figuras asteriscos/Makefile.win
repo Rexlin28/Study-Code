@@ -1,0 +1,31 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.5.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = "Rectangulo\ asteriscos.o" Rectangulo.o
+LINKOBJ  = "Rectangulo asteriscos.o" Rectangulo.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include/c++"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"Rectangulo\ asteriscos.o": Rectangulo\ asteriscos.c
+	$(CC) -c "Rectangulo asteriscos.c" -o "Rectangulo asteriscos.o" $(CFLAGS)
+
+Rectangulo.o: Rectangulo.c
+	$(CC) -c Rectangulo.c -o Rectangulo.o $(CFLAGS)

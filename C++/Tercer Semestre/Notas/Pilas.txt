@@ -1,0 +1,36 @@
+PIÑAS
+
+Es una estructura de datos que tiene la caracteristica de que el primero que entra es el ultimo en salir.
+
+FILO.- First Input Last Output
+
+Operaciones Basicas:
+push().- Ingresa un dato a la pila
+pop().- Obtiene un dato a la pila
+pilallena().- Valida que la pila esta llena
+pilavacia().- Valida que la pila esta vacia
+listarpila().- Enumera los elementos de la pila
+
+Push:
+1.- Validar que la pila no este llena.
+2.- Pedir el dato.
+3.- Colocar el dato en la posicion indice del arreglo.
+4.- Incrementar el indice.
+
+Pop:
+1.- Validar que la pila no este vacia.
+2.- Decrementar el indice.
+3.- Regresar el dato de la posicion indice del arreglo. (No se borra de la pila)
+4.- Tratamiento del dato.
+
+Pilallena:
+1.- Validar si el indice es igual al tamaño del arreglo la pila esta llena.
+
+PilaVacia:
+1.-Validar si el indice es igual a cero la pila esta vacia.
+
+Listarpila:
+1.-Recorrer el arreglo desde cero hasta indice -1
+
+PROCEDIMIENTO Y FUNCION:
+La funcion regresa valor y el procedimiento no.

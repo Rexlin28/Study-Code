@@ -1,0 +1,9 @@
+Propiedades de los arboles:
+1.-Existe una trayectoria unica entre dos vertices cualesquiera de un arbol.
+2.-El numero de vertices es mayor en uno al numero de aristas.
+3.-Un arbol con dos o mas vertices tiene al menos dos hojas.
+
+Grado de la raiz=0;
+
+Tarea:
+	Crear un arbol enumerando o denotando el grado;

@@ -1,0 +1,34 @@
+COLAS/FILAS
+Es una estructura de datos con la caracteristica de que el primero que entra es el primero en salir.
+
+FIFO.- First Input First Output.
+
+OPERACIONES BASICAS
+push.- Inserta un dato en la cola
+pop.- Regresa el dato que se encuentre al frente de la cola
+colallena.- Indica si la cola esta llena.
+colavacia.- Indica si la cola esta vacia.
+listarcola.- muestra los elementos en la cola.
+
+push:
+1.-Revisar que la cola no este llena.
+2.- Pedir dato.
+3.- Colocar el dato en el indice.
+4.- Incrementar el indice.
+
+pop:
+1.- Revisar que no este vacia
+2.- Guardar el dato de forma temporal el dato de la posicion 0.
+3.- Recorrer los elementos restantes una posicion. (desde 1 hasta n-1)
+4.- Indice disminuye.
+5.- Regresar el dato temporal.
+6.- Tratamiento del dato.
+
+collallena:
+1.- si el indice es igual al tamaño del arreglo.
+
+colavacia:
+1.- Si el indice de la cola es 0;
+
+listarCola:
+1.- Recorrer la cola desde 0 hasta indice -1.

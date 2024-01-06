@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="loadAlumnos(); showProfesoresAlumnos()">
+    <h1>Registro de Alumnos y Profesores</h1>
+
+    <h2>Alumnos</h2>
+    <ul id="alumnos"></ul>
+    <h3>Agregar Alumno</h3>
+    <input id="nombre" placeholder="Nombre">
+    <input id="matricula" placeholder="Matrícula">
+    <input id="cali1" placeholder="Calificación 1">
+    <input id="cali2" placeholder="Calificación 2">
+    <input id="cali3" placeholder="Calificación 3">
+    <input id="cali4" placeholder="Calificación 4">
+    <input id="cali5" placeholder="Calificación 5">
+    <button onclick="addAlumno()">Agregar Alumno</button>
+
+    <h2>Profesores y Grupo de Alumnos</h2>
+    <ul id="profesores"></ul>
+
+    <h3>Agregar Alumno al Grupo del Profesor</h3>
+    <input id="matriculaAlumno" placeholder="Matrícula del Alumno a agregar">
+    <button onclick="addAlumnoAlGrupo()">Agregar al Grupo del Profesor</button>
+
+    <br><button onclick="Calificar()">Obtener Calificaciones</button>
+
+    <div id="res">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

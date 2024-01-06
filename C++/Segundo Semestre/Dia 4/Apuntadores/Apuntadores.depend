@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\user\desktop\code\c++\dia 4\apuntadores\main.cpp
+	<iostream>
+
+1580925716 source:c:\users\user\desktop\code\c++\dia 4\apuntadores\apuntadores.cpp
+	<stdio.h>
+	<iostream>
+
+1580926422 source:c:\users\user\desktop\code\c++\dia 4\apuntadores\apuntadormamalon.cpp
+	<iostream>
+

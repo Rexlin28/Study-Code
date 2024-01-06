@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="RestartStack()">
+    <div id="introducir">
+        <input type="text" id="agregar">
+        <button onclick="Agregar()">Agregar a la Lista</button>
+    </div>
+    <div>
+        <h1 id="reproduciendo">En reproduccion: </h1>
+        <button onclick = "Atras()">Backward</button>
+        <button onclick="Siguiente()">Forward</button>
+    </div>
+    <div>
+        <h4>Stack:</h4>
+        <ul id="stack"></ul>
+    </div>
+    <div id="historial">
+        <h4>Historial:</h4>
+        <ul id="history"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

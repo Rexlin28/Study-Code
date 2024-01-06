@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="player">
+        <div id="info">
+            <div id="cover"></div>
+            <div id="track-info">
+                <p id="artist">Artista</p>
+                <p id="song">Canción</p>
+                <p id="album">Álbum</p>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="prev">Anterior</button>
+            <button id="play">Play</button>
+            <button id="next">Siguiente</button>
+        </div>
+        <div id="progress">
+            <p id="current-time">0:00</p>
+            <input type="range" id="progress-bar" min="0" max="100" value="0">
+            <p id="duration">0:00</p>
+        </div>
+        <div id="volume">
+            <p>Volumen:</p>
+            <input type="range" id="volume-bar" min="0" max="100" value="50">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

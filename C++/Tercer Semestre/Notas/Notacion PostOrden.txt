@@ -1,0 +1,6 @@
+Leer la expresion de derecha a izquierda: [RLr]
+1.- Cuando encuentre un operando lo inserta en la pila.
+2.- Cuando encuentre un operador saca los dos ultimos datos de la pila y aplica num2 operador num1 y el resultado lo inserta en la pila.
+3.- Al terminar de recorrer toda la expresion el resultado quedara en la pila por lo que solo se saca.
+
+(3+2)*(6-4)-> 3 2 + 6 4 - * -> 3+2=5|6-4=2| 5*2=10
